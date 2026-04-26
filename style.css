@@ -8,7 +8,7 @@
     outline: 1px solid red; /* чтобы контейнер был виден, в конце можно будет удалить это св-во */
     margin: 0 auto;
     width: 100%;
-    max-width: 1100px; /* 📍 Максимальная ширина для контейнера */
+    max-width: 1140px; /* 📍 Максимальная ширина для контейнера */
 }
 
 body {
@@ -42,7 +42,7 @@ header span {
 }
 
 .text-wrapper {
-    max-height: 425px;/* 📍 Cвойство для ограничения ширины блока с текстом в первой секции */
+    max-height: none;/* 📍 Cвойство для ограничения ширины блока с текстом в первой секции */
 }
 
 .main-title {
@@ -199,6 +199,7 @@ th, td {
 footer {
     background-color: rgba(163, 167, 255, 0.3);
     padding: 26px 0;
+    text-align: center;
     /* 📍 Свойство для расположения ссылки горизонтально по центру */
 }
 
@@ -207,9 +208,6 @@ footer {
     font-size: 14px;
     color: #2965f1;
     text-decoration: none;
-    text-align: center;
-    display: flex;
-    justify-content: center;
 }
 
 .footer-link:hover {
